@@ -1,0 +1,50 @@
+:root {
+  --cor-fundo-body: #ffae1a;
+  --cor-fundo-form: #FFFAFA;
+  --cor-borda: #D3D3D3;
+  --cor-texto: #2F4F4F;
+  --cor-fundo-btn-hover: #ffa500;
+}
+body {
+  margin: 0 auto;
+  background-color: var(--cor-fundo-body);
+  font-family: "Arial", Tahoma, arial;
+  color: var(--cor-texto);
+}
+
+body, button, a {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px 15px;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  vertical-align: middle;
+}
+a:hover {
+  opacity: 0.95;
+}
+a:active {
+  color: var(--cor-fundo-body);
+}
+
+/* FORMULARIO ********/
+
+.grid div {
+  text-align: center;
+}
+
+form {
+  width: 420px;
+  border-radius: 5px;
+  background-color: var(--cor-fundo-form);
+  border-style: solid;
+  border-color: var(--cor-borda);
+  border-width: 1px;
+}
